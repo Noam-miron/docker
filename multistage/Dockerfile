@@ -17,3 +17,8 @@ FROM base as production
 
 CMD ["python", "app.py"]
 
+#docker build --target testing -t app-testing .
+#docker run app-testing
+
+#docker build --target production  -t app-prod .
+#docker run app-prod
